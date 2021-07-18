@@ -1,0 +1,20 @@
+
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+  }
+  
+  .checkout__ad {
+    /* !important: 如果前面被覆盖，这里会强行起作用 */
+    min-width: 800px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+  }
